@@ -1,0 +1,8 @@
+#PBS -N run_NeoPredPipe
+#PBS -l nodes=1:ppn=2
+#PBS -l walltime=480:00:00
+#PBS -S /bin/bash
+#PBS -q pub_fast
+#PBS -j oe
+
+NeoPredPipe.py -I f2 -H hla_typing.txt -O o2

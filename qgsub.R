@@ -12,7 +12,7 @@ option_list <- list(
   make_option(c("-m", "--mapping"), action="store",default=NULL,
               help="Mapping file, each column corresponds to the values to replace"),
   make_option(c("-r", "--replace"), action="store", default=NULL,
-              help="character that need to be replaced, if there are more than 1 word, words should sep by one space"),
+              help="Character that need to be replaced, if there are more than 1 word, words should been splited by space"),
   make_option(c("-p", "--prefix"), action="store",default=NULL,
               help="Prefix of output files"),
   make_option(c("-s", "--suffix"), action="store",default=NULL,
